@@ -24,6 +24,13 @@
 </head>
 <body>
   <div id="loading">Loading Hungry Haste…</div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('loading');
+      if (el) el.remove();
+      document.body.style.background = '';
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

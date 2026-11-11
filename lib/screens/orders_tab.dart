@@ -91,7 +91,7 @@ class OrderCard extends StatelessWidget {
           padding: const EdgeInsets.only(top: 4),
           child: Text(
             '${DateFormat('d MMM, HH:mm').format(order.createdAt)} · '
-            '${order.itemCount} items · ${rupees(order.total)}',
+            '${order.itemCount} item${order.itemCount == 1 ? '' : 's'} · ${rupees(order.total)}',
           ),
         ),
         trailing: trailing,

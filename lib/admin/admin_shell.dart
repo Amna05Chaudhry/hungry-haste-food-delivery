@@ -35,6 +35,7 @@ class _AdminShellState extends State<AdminShell> {
     };
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text('Hungry Haste · Admin'),
         actions: [
           const ModeBadge(),

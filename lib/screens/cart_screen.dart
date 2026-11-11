@@ -90,7 +90,7 @@ class CartScreen extends StatelessWidget {
                                 visualDensity: VisualDensity.compact,
                                 onPressed: () => state.toggleFavourite(line.item.id),
                                 icon: Icon(state.isFavourite(line.item.id) ? Icons.favorite : Icons.favorite_border,
-                                    size: 20),
+                                    size: 20, color: state.isFavourite(line.item.id) ? t.colorScheme.primary : null),
                               ),
                             ]),
                           ]),

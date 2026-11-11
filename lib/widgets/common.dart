@@ -285,6 +285,7 @@ class MaxWidth extends StatelessWidget {
   final double width;
   @override
   Widget build(BuildContext context) => Center(
+        heightFactor: 1, // size to the child, don't fill the parent's height
         child: ConstrainedBox(constraints: BoxConstraints(maxWidth: width), child: child),
       );
 }
