@@ -157,9 +157,11 @@ The original 2023 version only ran against our private Firebase project, whose c
 - Illustrations (splash faces, logo) from the original UI design used by the project.
 - Font: [Inter](https://rsms.me/inter/) by Rasmus Andersson (SIL Open Font License, `assets/fonts/Inter-LICENSE.txt`).
 
-## Authors
+## Author
 
-Built by **Amna Choudhri** and **<partner>** (TODO: partner name/GitHub) as a university group project; v2 rebuild (demo mode, admin panel, Material 3) by Amna Choudhri.
+**Amna Choudhri**
+
+Originally developed as a team university project; this version was refactored and extended by Amna Choudhri (v2: demo mode, web admin panel, Material 3 redesign, current Flutter/Firebase).
 
 ## License
 
