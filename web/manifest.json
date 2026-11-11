@@ -1,11 +1,11 @@
 {
-    "name": "food_delivery_app",
-    "short_name": "food_delivery_app",
+    "name": "Hungry Haste",
+    "short_name": "Hungry Haste",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FA4A0C",
+    "theme_color": "#FA4A0C",
+    "description": "Flutter food delivery app with a web admin panel.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
